@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate
+include: ['_pages', '_redirect']
 description: > # this means to ignore newlines until "baseurl:"
 Welcome to my website! 
 This website contains my projects that I did and my personal blogs and experience developing software applications.
