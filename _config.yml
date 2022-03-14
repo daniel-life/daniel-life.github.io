@@ -3,3 +3,9 @@ description: > # this means to ignore newlines until "baseurl:"
 Welcome to my website! 
 This website contains my projects that I did and my personal blogs and experience developing software applications.
 Thanks for visting my website!
+url: ""
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-seo-tag
+  - jekyll-redirect-from
