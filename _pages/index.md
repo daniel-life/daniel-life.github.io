@@ -8,3 +8,4 @@ layout: default
 please feel free to explore my personal website.
 <br>
 NOTE: Work In Progress. Will continue to develop it.
+this is an exmaple text.
