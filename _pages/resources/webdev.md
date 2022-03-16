@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 ```
-the CSS above can be placed in your web.css that applies to all pages (I have placed in <a href="https://daniel-life.github.io/static/css/web.css" target="_blank">Here</a>). Below is an example of the structure of your layouts html files, which is your template to be displayed across all pages. Don't worry if you have a phone as it will also work in _vertically smaller pages_. In this Example, the style is applied into the _main_content_wrap_.
+the CSS above can be placed in your web.css that applies to all pages (I have placed in <a href="https://daniel-life.github.io/static/css/web.css" target="_blank">Here</a>). Below is an example of the structure of your layouts html files, which is your template to be displayed across all pages. It will also work in _vertically smaller pages_. In this Example, the style is applied into the _main_content_wrap_.
 
 ``` html
 <div id="header_wrap" class="outer">
