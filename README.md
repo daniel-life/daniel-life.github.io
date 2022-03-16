@@ -2,9 +2,9 @@
 
 ## Questions
 
-For general support, direct your questions to [Daniel Cheong](mailto:Daniel08222003@gmail.com).
+For general support, please direct your questions to me, [Daniel Cheong](mailto:Daniel08222003@gmail.com).
 
-The issue list for this project is exclusively for bug reports and feature requests.
+The issues list for this project is only for bug reports and feature requests so that it can be addressed promptly. Avoid flooding issues list with general support/questions. Thanks! 
 
 ## Tutorial
 
