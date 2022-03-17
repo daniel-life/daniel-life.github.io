@@ -3,30 +3,11 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
+ 
 #btn-back-to-top {
-  background-color: black;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 18px;
-  line-height: 48px;
-  width: 48px;
-
-/* place it at the bottom right corner */
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-
-/* keep it at the top of everything else */
-  z-index: 100;
-
-/* hide with opacity */
-  opacity: 0;
-
-/* also add a translate effect */
-  transform: translateY(100px);
-/* and a transition */
-  transition: all 0.5s ease;
+  bottom: 40px;
+  right: 40px;
+  display: none;
 }
 
