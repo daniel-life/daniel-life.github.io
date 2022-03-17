@@ -40,6 +40,7 @@ This is a common function that I see people wanting to do: display the content o
 <iframe src="(document link you copied)" style="width:100%; height:50rem;" frameborder="0">
 ```
 **NOTE: Do change the /view at the end of the link to /preview, or else a forbidden 403 error will occur!**
+<br>
 Here is an example of how I implemented it in the about me section to show my resume:
 ``` HTML
 <iframe src="https://drive.google.com/file/d/1DLXObo_ymvDGcK7jjLv4if1K_K084PDZ/preview" style="width:100%; height:50rem;" frameborder="0"></iframe>
