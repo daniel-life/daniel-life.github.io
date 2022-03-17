@@ -33,9 +33,10 @@ the CSS above can be placed in your web.css that applies to all pages (I have pl
 ``` 
 ## 2. Preview documents in website
 This is a common function that I see people wanting to do: display the content of any document in the website itself without the need to go to another website to view it. Here are the steps to do this:
-Step 1: upload your document to <a href="https://drive.google.com/google">**Google Drive**</a> by dragging and dropping your document into the website. Open your document by double-clicking it in Google Drive.
-Step 2: Click on **more options** icon at the top-right corner @icon-elipsis-vertical then click **open in new window**
-Step 3: Copy the link in address bar, then add the codes below to your website, under <boby> tag:
+### Step 1: upload your PDF file to <a href="https://drive.google.com/google">**Google Drive**</a> by dragging and dropping your PDF document into the website. Open your PDF document by double-clicking it in Google Drive.
+### Step 2: Click on **more options** @icon-elipsis-vertical, then click **open in new window**
+### Step 3: Copy the link in address bar, then add the codes below to your website, under <body> tag:
+
 ``` html
 <iframe src="(document link you copied)" style="width:100%; height:50rem;" frameborder="0">
 ```
