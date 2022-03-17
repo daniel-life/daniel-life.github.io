@@ -4,36 +4,28 @@ body {
     flex-direction: column;
 }
 
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
 .scrollToTopBtn {
-  background-color: black;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 18px;
-  line-height: 48px;
-  width: 48px;
+  /* same general styles as before */
 
-  /* place it at the bottom right corner */
+  /* place it at the bottom-right corner */
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 30px;
+
   /* keep it at the top of everything else */
   z-index: 100;
+
   /* hide with opacity */
   opacity: 0;
+
   /* also add a translate effect */
   transform: translateY(100px);
+
   /* and a transition */
-  transition: all 0.5s ease;
+  transition: all .5s ease
 }
 
 .showBtn {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0)
 }
