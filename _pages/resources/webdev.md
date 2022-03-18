@@ -34,7 +34,7 @@ the CSS above can be placed in your web.css that applies to all pages (I have pl
 
 ## 2. Preview documents in website
 This is a common function that I see people wanting to do: display the content of any document in the website itself without the need to go to another website to view it. Here are the steps to do this:
-### Step 1: upload your document to <a href="https://drive.google.com/google">**Google Drive**</a> by dragging and dropping your document into the website. Open your PDF document by double-clicking it in Google Drive.
+### Step 1: upload your document to <a href="https://drive.google.com/google">**Google Drive**</a> by dragging and dropping your document into the website. Open your document by double-clicking it in Google Drive.
 ### Step 2: Click on **more options**, then click **open in new window**
 ### Step 3: Copy the link in address bar, then add the codes below to your website, under **body** tag:
 ``` html
@@ -49,4 +49,4 @@ Here is an example of how I implemented it in the about me section to show my re
 
 ### Explanation: what is <iframe> tag in HTML?
 the iframe tag is an inline frame that embeds another document within the current HTML document. It is styled
-with CSS within the iframe tag (as shown above with style tag). This is very useful especially if you want the user to have quick access to the contents of your document without having to download it or visit another website. It is commonly used do display external content such as a document or a video.
+with CSS within the iframe tag (as shown above with _style_ tag). This is very useful especially if you want the user to have quick access to the contents of your document without having to download it or visit another website. It is commonly used do display external content such as a document or a video.
