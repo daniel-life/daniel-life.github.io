@@ -50,3 +50,19 @@ Here is an example of how I implemented it in the about me section to show my re
 ### Explanation: what is <iframe> tag in HTML?
 the iframe tag is an inline frame that embeds another document within the current HTML document. It is styled
 with CSS within the iframe tag (as shown above with _style_ tag). This is very useful especially if you want the user to have quick access to the contents of your document without having to download it or visit another website. It is commonly used do display external content such as a document or a video.
+
+## 3. CSS box model
+![CSS box model](CSS box model.png)
+This is a must know concept for styling of website using CSS. It helps you to **control the elements** in your html page and to **structure the website to your desired outcome**. There are 4 components to a styling of a website (inside to outside):
+
+### 1. Content
+The content box is the smallest box and it contains the **content** of your website (text, images etc). Think of it as the **object** in a delivery box
+
+### 2. Padding
+The **gap between your content and the edge of your box**. It helps to give space between your content and the surrounding box so that the specific content is not too close to the edge of the box. Think of it as the **space between the brown cardboard and the object inside a delivery box**.
+
+### 3. Border
+The **line around the box itself** that goes around the padding and tightly wraps around your box. Think of it as the **brown cardboard that encloses your object** as a delivery box.
+
+### 4. Margin
+space **around** your box. Think of it as the **space between your delivery box and another delivery box**.
