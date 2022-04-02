@@ -17,9 +17,11 @@ This is a great book for beginners in web development who want to kickstart thei
 Website: [Confident Web Design](https://www.koganpage.com/product/confident-web-design-9781789663464)
 
 ## Java
-### 1. Head first Java
+### 1. Head first Java, a brain-friendly guide
 **Publisher**: O Reilly
 **Author**: [Kathy Sierra](https://www.oreilly.com/pub/au/1084), [Bert Bates](https://www.oreilly.com/pub/au/1085)
+<br>
+It presents java language for beginners using real-life examples and in a fun, exciting manner so it will be engaging and fun to learn. It clearly explains fundamental java concepts such as Object-Oriented Programming (OOP) and arrays and hard to understand concepts such as Enums and Generics.
 <br>
 Websites:
 <br>
