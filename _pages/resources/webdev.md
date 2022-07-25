@@ -52,7 +52,7 @@ the iframe tag is an inline frame that embeds another document within the curren
 with CSS within the iframe tag (as shown above with _style_ tag). This is very useful especially if you want the user to have quick access to the contents of your document without having to download it or visit another website. It is commonly used do display external content such as a document or a video.
 
 ## 3. CSS box model
-![CSS box model](img/CSS box model.png)
+![CSS box model](CSS box model.png)
 This is a must know concept for styling of website using CSS. It helps you to **control the elements** in your html page and to **structure the website to your desired outcome**. There are 4 components to a styling of a website (inside to outside):
 
 ### 1. Content
