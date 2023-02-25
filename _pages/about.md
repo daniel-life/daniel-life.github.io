@@ -11,7 +11,7 @@ I am Currently a student in **Nanyang Polytechnic** <a href="https://www.nyp.edu
 <br />
 
 ### my resume
-<iframe src="https://drive.google.com/file/d/1K7GwROEWYqHE1vTVuNO_jgHTGIkHvfnD/preview" style="width:100%; height:50rem;" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1NI3c08PeJgJFVVCwoLa5Fg4h4-e11JFz/preview" style="width:100%; height:50rem;" frameborder="0"></iframe>
 
 
 <span id="#1"><sup>[1]</sup> as of <span class="date">2022-08-17</span></span>
