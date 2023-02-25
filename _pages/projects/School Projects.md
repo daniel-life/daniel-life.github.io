@@ -8,7 +8,8 @@ Here are my major school projects that I did during my 3 years at Nanyang Poly. 
 ## 1. Cruise Ship Health Declaration System
 ![App Development Image](https://static.wixstatic.com/media/378a52_6422d669eb6048c5943cb7a5b304879d~mv2.jpg)
 
-This is a simple Flask Web App that uses Create, retrieve, Update and Delete (CRUD) and Object-Oriented Programming (OOP) to create a health declaration system for a cruise ship company. This is to make the check in process more efficient for cruise passengers, with the COVID-19 measures in place.
+This is a simple Flask Web App that uses Create, retrieve, Update and Delete (CRUD) and Object-Oriented Programming (OOP) to create a Web Application system for a cruise ship company. This is to make the check in process more efficient for cruise passengers, with the COVID-19 measures in place. I was tasked to create and manage health declaration status of users.
+
 ### Language used:
 - Python
 - HTML
@@ -29,7 +30,8 @@ This is a simple Flask Web App that uses Create, retrieve, Update and Delete (CR
 #### Admin:
 - Manage health declaration status of Users
 
-### Code Link: [Cruise Ship GitHub Repository](https://github.com/Daniel-life/app-development)
+### Code Link (full team project code): [Cruise Ship GitHub Repository](https://github.com/Daniel-life/app-development)
+
 
 ## 2. Systems Security Project
 ![System security image](https://static.wixstatic.com/media/378a52_fd3a9920a04b4ea6b3e29f50fb45797e~mv2.jpeg)
@@ -47,12 +49,6 @@ This is a more advanced project of Cruise ship system where my team and I were t
 - Bootstrap 4
 - mySQL, requests (for Database)
 - bcrypt, Fernet (for cryptography and hashing of passwords)
-- matplotlib (for statistical graphs)
-
-### Third-party applications used:
-- **Twillio** rest client (for 2FA authentication)
-- google ReCaptcha (for login/signup security)
-- ipgeolocation (for audit data)
 
 ### Features I have implemented:
 - Forgot password with email reset url
@@ -61,4 +57,4 @@ This is a more advanced project of Cruise ship system where my team and I were t
 - signup validation and password requirements
 - Hashing of passwords
 
-### code link: [System Security GitHub Repository](https://github.com/daniel-life/systems-security)
+### code link (full team project code): [System Security GitHub Repository](https://github.com/daniel-life/systems-security)
