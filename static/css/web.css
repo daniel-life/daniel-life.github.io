@@ -4,26 +4,21 @@ body {
     flex-direction: column;
 }
  
-#btn-back-to-top {
+button #btn-back-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #333;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    line-height: 50px;
+    right: 2%;
+    bottom: 2%;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    color: #fff;
+    background-color: #4F46E5;
+    border: none;
+    outline: none;
     cursor: pointer;
-    visibility: hidden; /* Hide by default */
-    opacity: 0; /* Fade out by default */
-    transform: scale(0.8); /* Scale down by default */
-    transition-property: all; /* Animate all properties */
-    transition-duration: 300ms; /* Duration of animation */
-    transition-timing-function: ease; /* Ease out animation */
-    transition-delay: 0s; /* No delay */
+    padding: 10px 18px;
+    margin: 0;
+    border-radius: 3px;
   }
 
   #btn-back-to-top:hover {

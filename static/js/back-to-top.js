@@ -1,2 +1,4 @@
+const button = document.querySelector("#btn-back-to-top");
+  
   // BACK2TOP (selector, offset, prop, time, effect, delay);
-  BACK2TOP("#btn-back-to-top", 300);
+  BACK2TOP(button, 200, "all", 300, "ease", 0);
