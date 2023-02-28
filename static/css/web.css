@@ -15,7 +15,7 @@ body {
     display: none;
 }
 
-.container {
+#datetime {
     font-family: Arial;
     font-weight: bold;
     color: #000000;
@@ -26,7 +26,6 @@ body {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-
 }
 
 
