@@ -15,7 +15,7 @@ body {
     display: none;
 }
 
-#datetime {
+.container {
     font-family: Arial;
     font-weight: bold;
     color: #000000;
