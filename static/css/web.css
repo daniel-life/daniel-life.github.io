@@ -4,33 +4,10 @@ body {
     flex-direction: column;
 }
  
-button #btn-back-to-top {
+#btn-back-to-top {
     position: fixed;
-    right: 2%;
-    bottom: 2%;
-    opacity: 0;
-    visibility: hidden;
-    font-size: 14px;
-    color: #fff;
-    background-color: #4F46E5;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 10px 18px;
-    margin: 0;
-    border-radius: 3px;
-  }
-
-  #btn-back-to-top:hover {
-      background-color:#555; 
-      transform : scale(1.1); 
-      box-shadow : inset -3px -3px rgba(0,0,0,.5), inset -3px -3px rgba(255,255,255,.5);
-      color : white
-   }
-
-   #btn-back-to-top.show {
-     visibility : visible; 
-     opacity : .8; 
-     transform : scale(1)
-   }
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
 

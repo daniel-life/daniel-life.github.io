@@ -12,7 +12,7 @@
     <!-- jquery and bootstrtap JavaScript -->
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
-    
+
     <!-- Add the back2top.js JavaScript library to the web page -->
     <script src="back2top.min.js"></script>
 
@@ -25,15 +25,18 @@
 {% seo %}
   </head>
 
-  <body>
+  <body onload="renderTime();">
+
+    <div id="datetime" class="container"></div>
+  
      <!-- Back to top button -->
-<button
-      type="button"
-      class="btn btn-primary btn-floating btn-lg"
-      id="btn-back-to-top"
-      >
-  <i class="fas fa-arrow-up"></i>
-</button>
+    <button
+          type="button"
+          class="btn btn-primary btn-floating btn-lg"
+          id="btn-back-to-top"
+          >
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">

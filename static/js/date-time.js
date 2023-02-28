@@ -1,12 +1,48 @@
-// Get current date and time
-var now = new Date();
+function renderTime() {
+    var myDate = new Date();
+    var year = myDate.getYear();
+        if (year < 1000) {
+            year += 1900
+        }
+    
+    var day = myDate.getDay();
+    var month = myDate.getMonth();
+    var daym = myDate.getDate();
+    var dayArray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+    var monthArray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
-// Get local time offset in hours
-var offset = -(now.getTimezoneOffset() / 60);
+    var currentTime = new Date();
+    var h = currentTime.getHours();
+    var m = currentTime.getMinutes();
+    var s = currentTime.getSeconds();
+        if(h == 24){
+            h = 0;
+        } else if(h > 12){
+            h = h - 0;
+        }
 
-// Format date and time using different options
-var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' };
-var formatted = now.toLocaleString('en-US', options);
+        if (h < 10) {
+            h = "0" + h;
+        }
 
-// Display date and time in nav element with id="datetime"
-document.getElementById("datetime").innerHTML = formatted;
+        if (h < 10) {
+            h = "0" + h;
+        }
+
+        if (m < 10) {
+            m = "0" + m;
+        }
+
+        if (s < 10) {
+            s = "0" + s;
+        }
+
+        var myClock = document.getElementById("datetime");
+
+    myClock.textContent = " " +dayArray[day] + " " + daym + " " + monthArray[month] + " " + year + " | " + h + ":" + m + ":" + s;
+    myClock.innerText = " " +dayArray[day] + " " + daym + " " + monthArray[month] + " " + year + " | " + h + ":" + m + ":" + s;
+
+    setTimeout("renderTime()", 1000);
+
+}
+renderTime();
