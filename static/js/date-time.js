@@ -8,8 +8,8 @@ function renderTime() {
     var day = myDate.getDay();
     var month = myDate.getMonth();
     var daym = myDate.getDate();
-    var dayArray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-    var monthArray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+    var dayArray = new Array("Sunday, ", "Monday, ", "Tuesday, ", "Wednesday, ", "Thursday, ", "Friday, ", "Saturday, ");
+    var monthArray = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
 
     var currentTime = new Date();
     var h = currentTime.getHours();
