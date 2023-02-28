@@ -8,6 +8,34 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display: none;
-}
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    visibility: hidden; /* Hide by default */
+    opacity: 0; /* Fade out by default */
+    transform: scale(0.8); /* Scale down by default */
+    transition-property: all; /* Animate all properties */
+    transition-duration: 300ms; /* Duration of animation */
+    transition-timing-function: ease; /* Ease out animation */
+    transition-delay: 0s; /* No delay */
+  }
+
+  #btn-back-to-top:hover {
+      background-color:#555; 
+      transform : scale(1.1); 
+      box-shadow : inset -3px -3px rgba(0,0,0,.5), inset -3px -3px rgba(255,255,255,.5);
+      color : white
+   }
+
+   #btn-back-to-top.show {
+     visibility : visible; 
+     opacity : .8; 
+     transform : scale(1)
+   }
 
