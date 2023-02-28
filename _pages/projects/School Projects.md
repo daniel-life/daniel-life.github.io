@@ -70,4 +70,4 @@ This is a more advanced project of Cruise ship system where my team and I were t
 
 ### code link (full team project code): [System Security GitHub Repository](https://github.com/daniel-life/systems-security)
 
-## 3. Smart Store ASP.NET Web Applicatio
+## 3. Smart Store ASP.NET Web Application
