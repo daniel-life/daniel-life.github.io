@@ -12,4 +12,4 @@ I have currently completed my 3 years of studies in **Nanyang Polytechnic** <a h
 ### my resume
 <iframe src="https://drive.google.com/file/d/1G0wA1ZLdTZYx_LCRzAOAGgDVMeRFWLgf/preview" style="width:100%; height:50rem;" frameborder="0"></iframe>
 
-<span id="#1"><sup>[1]</sup> as of <span class="date">25 February 2023</span></span>
+<span id="#1"><sup>[1]</sup> as of <span class="date">10 March 2024</span></span>
